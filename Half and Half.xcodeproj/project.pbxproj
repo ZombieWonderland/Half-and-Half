@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2C26B461CB7F671006BB71C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C26B451CB7F671006BB71C /* AppDelegate.swift */; };
+		F2C26B481CB7F671006BB71C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C26B471CB7F671006BB71C /* ViewController.swift */; };
+		F2C26B4B1CB7F671006BB71C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C26B491CB7F671006BB71C /* Main.storyboard */; };
+		F2C26B4D1CB7F671006BB71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C26B4C1CB7F671006BB71C /* Assets.xcassets */; };
+		F2C26B501CB7F671006BB71C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C26B4E1CB7F671006BB71C /* LaunchScreen.storyboard */; };
+		F2C26B5B1CB7F671006BB71C /* Half_and_HalfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C26B5A1CB7F671006BB71C /* Half_and_HalfTests.swift */; };
+		F2C26B661CB7F671006BB71C /* Half_and_HalfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C26B651CB7F671006BB71C /* Half_and_HalfUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2C26B571CB7F671006BB71C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C26B3A1CB7F671006BB71C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C26B411CB7F671006BB71C;
+			remoteInfo = "Half and Half";
+		};
+		F2C26B621CB7F671006BB71C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C26B3A1CB7F671006BB71C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C26B411CB7F671006BB71C;
+			remoteInfo = "Half and Half";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2C26B421CB7F671006BB71C /* Half and Half.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Half and Half.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C26B451CB7F671006BB71C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2C26B471CB7F671006BB71C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2C26B4A1CB7F671006BB71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2C26B4C1CB7F671006BB71C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2C26B4F1CB7F671006BB71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2C26B511CB7F671006BB71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C26B561CB7F671006BB71C /* Half and HalfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Half and HalfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C26B5A1CB7F671006BB71C /* Half_and_HalfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Half_and_HalfTests.swift; sourceTree = "<group>"; };
+		F2C26B5C1CB7F671006BB71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C26B611CB7F671006BB71C /* Half and HalfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Half and HalfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C26B651CB7F671006BB71C /* Half_and_HalfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Half_and_HalfUITests.swift; sourceTree = "<group>"; };
+		F2C26B671CB7F671006BB71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C26B3F1CB7F671006BB71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C26B531CB7F671006BB71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C26B5E1CB7F671006BB71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2C26B391CB7F671006BB71C = {
+			isa = PBXGroup;
+			children = (
+				F2C26B441CB7F671006BB71C /* Half and Half */,
+				F2C26B591CB7F671006BB71C /* Half and HalfTests */,
+				F2C26B641CB7F671006BB71C /* Half and HalfUITests */,
+				F2C26B431CB7F671006BB71C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C26B431CB7F671006BB71C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C26B421CB7F671006BB71C /* Half and Half.app */,
+				F2C26B561CB7F671006BB71C /* Half and HalfTests.xctest */,
+				F2C26B611CB7F671006BB71C /* Half and HalfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C26B441CB7F671006BB71C /* Half and Half */ = {
+			isa = PBXGroup;
+			children = (
+				F2C26B451CB7F671006BB71C /* AppDelegate.swift */,
+				F2C26B471CB7F671006BB71C /* ViewController.swift */,
+				F2C26B491CB7F671006BB71C /* Main.storyboard */,
+				F2C26B4C1CB7F671006BB71C /* Assets.xcassets */,
+				F2C26B4E1CB7F671006BB71C /* LaunchScreen.storyboard */,
+				F2C26B511CB7F671006BB71C /* Info.plist */,
+			);
+			path = "Half and Half";
+			sourceTree = "<group>";
+		};
+		F2C26B591CB7F671006BB71C /* Half and HalfTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C26B5A1CB7F671006BB71C /* Half_and_HalfTests.swift */,
+				F2C26B5C1CB7F671006BB71C /* Info.plist */,
+			);
+			path = "Half and HalfTests";
+			sourceTree = "<group>";
+		};
+		F2C26B641CB7F671006BB71C /* Half and HalfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C26B651CB7F671006BB71C /* Half_and_HalfUITests.swift */,
+				F2C26B671CB7F671006BB71C /* Info.plist */,
+			);
+			path = "Half and HalfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C26B411CB7F671006BB71C /* Half and Half */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C26B6A1CB7F671006BB71C /* Build configuration list for PBXNativeTarget "Half and Half" */;
+			buildPhases = (
+				F2C26B3E1CB7F671006BB71C /* Sources */,
+				F2C26B3F1CB7F671006BB71C /* Frameworks */,
+				F2C26B401CB7F671006BB71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Half and Half";
+			productName = "Half and Half";
+			productReference = F2C26B421CB7F671006BB71C /* Half and Half.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2C26B551CB7F671006BB71C /* Half and HalfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C26B6D1CB7F671006BB71C /* Build configuration list for PBXNativeTarget "Half and HalfTests" */;
+			buildPhases = (
+				F2C26B521CB7F671006BB71C /* Sources */,
+				F2C26B531CB7F671006BB71C /* Frameworks */,
+				F2C26B541CB7F671006BB71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C26B581CB7F671006BB71C /* PBXTargetDependency */,
+			);
+			name = "Half and HalfTests";
+			productName = "Half and HalfTests";
+			productReference = F2C26B561CB7F671006BB71C /* Half and HalfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2C26B601CB7F671006BB71C /* Half and HalfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C26B701CB7F671006BB71C /* Build configuration list for PBXNativeTarget "Half and HalfUITests" */;
+			buildPhases = (
+				F2C26B5D1CB7F671006BB71C /* Sources */,
+				F2C26B5E1CB7F671006BB71C /* Frameworks */,
+				F2C26B5F1CB7F671006BB71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C26B631CB7F671006BB71C /* PBXTargetDependency */,
+			);
+			name = "Half and HalfUITests";
+			productName = "Half and HalfUITests";
+			productReference = F2C26B611CB7F671006BB71C /* Half and HalfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C26B3A1CB7F671006BB71C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zombie Koala";
+				TargetAttributes = {
+					F2C26B411CB7F671006BB71C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F2C26B551CB7F671006BB71C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F2C26B411CB7F671006BB71C;
+					};
+					F2C26B601CB7F671006BB71C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F2C26B411CB7F671006BB71C;
+					};
+				};
+			};
+			buildConfigurationList = F2C26B3D1CB7F671006BB71C /* Build configuration list for PBXProject "Half and Half" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C26B391CB7F671006BB71C;
+			productRefGroup = F2C26B431CB7F671006BB71C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C26B411CB7F671006BB71C /* Half and Half */,
+				F2C26B551CB7F671006BB71C /* Half and HalfTests */,
+				F2C26B601CB7F671006BB71C /* Half and HalfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C26B401CB7F671006BB71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C26B501CB7F671006BB71C /* LaunchScreen.storyboard in Resources */,
+				F2C26B4D1CB7F671006BB71C /* Assets.xcassets in Resources */,
+				F2C26B4B1CB7F671006BB71C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C26B541CB7F671006BB71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C26B5F1CB7F671006BB71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C26B3E1CB7F671006BB71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C26B481CB7F671006BB71C /* ViewController.swift in Sources */,
+				F2C26B461CB7F671006BB71C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C26B521CB7F671006BB71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C26B5B1CB7F671006BB71C /* Half_and_HalfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C26B5D1CB7F671006BB71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C26B661CB7F671006BB71C /* Half_and_HalfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2C26B581CB7F671006BB71C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C26B411CB7F671006BB71C /* Half and Half */;
+			targetProxy = F2C26B571CB7F671006BB71C /* PBXContainerItemProxy */;
+		};
+		F2C26B631CB7F671006BB71C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C26B411CB7F671006BB71C /* Half and Half */;
+			targetProxy = F2C26B621CB7F671006BB71C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2C26B491CB7F671006BB71C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C26B4A1CB7F671006BB71C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2C26B4E1CB7F671006BB71C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C26B4F1CB7F671006BB71C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2C26B681CB7F671006BB71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C26B691CB7F671006BB71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C26B6B1CB7F671006BB71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Half and Half/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zombiekoala.Half-and-Half";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2C26B6C1CB7F671006BB71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Half and Half/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zombiekoala.Half-and-Half";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2C26B6E1CB7F671006BB71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Half and HalfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zombiekoala.Half-and-HalfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Half and Half.app/Half and Half";
+			};
+			name = Debug;
+		};
+		F2C26B6F1CB7F671006BB71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Half and HalfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zombiekoala.Half-and-HalfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Half and Half.app/Half and Half";
+			};
+			name = Release;
+		};
+		F2C26B711CB7F671006BB71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Half and HalfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zombiekoala.Half-and-HalfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Half and Half";
+			};
+			name = Debug;
+		};
+		F2C26B721CB7F671006BB71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Half and HalfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zombiekoala.Half-and-HalfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Half and Half";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C26B3D1CB7F671006BB71C /* Build configuration list for PBXProject "Half and Half" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C26B681CB7F671006BB71C /* Debug */,
+				F2C26B691CB7F671006BB71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C26B6A1CB7F671006BB71C /* Build configuration list for PBXNativeTarget "Half and Half" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C26B6B1CB7F671006BB71C /* Debug */,
+				F2C26B6C1CB7F671006BB71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2C26B6D1CB7F671006BB71C /* Build configuration list for PBXNativeTarget "Half and HalfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C26B6E1CB7F671006BB71C /* Debug */,
+				F2C26B6F1CB7F671006BB71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2C26B701CB7F671006BB71C /* Build configuration list for PBXNativeTarget "Half and HalfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C26B711CB7F671006BB71C /* Debug */,
+				F2C26B721CB7F671006BB71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2C26B3A1CB7F671006BB71C /* Project object */;
+}
